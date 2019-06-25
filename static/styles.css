@@ -1,0 +1,26 @@
+body{
+    text-align: center
+}
+
+.movie-input{
+    width: 30%;
+    margin-top: 1%;
+}
+
+.yt-player{
+    width: 1000px;
+    height: 565px;
+}
+
+.top-rev{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.top-rev div{
+    margin-top: 10px;
+    width: 500px;
+    margin-right: 50px;
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+
+</head>
+<body>
+    <form action = "http://localhost:5000/result" method = "POST">
+        <p>Movie Name: <input type = "text" name = "nameMovie" class="movie-input"/></p>
+        <p><input type = "submit" value = "submit" /></p>
+      </form>
+
+
+    <p class="movie-name">Movie:</p>
+    <iframe src="https://www.youtube.com/embed/yY6XnbWnK4o" frameborder="0" class="yt-player"></iframe>
+    <div class="rating">
+        <p class="avg-rating">Rated: </p>
+        <p class="num-rev">Number of People reviewed: </p>
+    </div>
+
+    <div class="top-rev">
+        <div class="rev1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+        </div>
+        <div class="rev2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reiciendis labore nesciunt, quibusdam hic corrupti veniam 
+            quia asperiores praesentium fugit sapiente!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+
+        </div>
+        <div class="rev3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reiciendis labore nesciunt, quibusdam hic corrupti veniam 
+            quia asperiores praesentium fugit sapiente!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Incidunt ipsam aut minus dicta voluptas! Magni inventore soluta ipsam rerum qui, 
+            libero eveniet reprehenderit corrupti dolor? Asperiores non perferendis quia et.
+
+        </div>
+    </div>
+
+</body>
+</html>
