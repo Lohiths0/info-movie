@@ -3,13 +3,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('home.html')
-
-
-
-@app.route('/nameMovie')
-def moviePageDisplay():
     return render_template('index.html')
+
+
+
+@app.route('/namemovie/test', methods=['GET', 'POST'])
+def moviePageDisplay():
+    
+    result = "invalid movie"
+    if request.method == 'POST' or request.method == 'GET':
+        result = request.form['nameMovie']
+    
+    return result
 
 
 
