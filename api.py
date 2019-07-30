@@ -21,6 +21,8 @@ def movieRev (Id):
     reviews.append(response.json()['results'][2]['content'])
     print (reviews)
 
+
+
 print (movieInfo)
 print (imdbId)
 movieRev(imdbId)

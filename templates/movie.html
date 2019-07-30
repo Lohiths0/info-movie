@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css')}}">
+
+</head>
+<body>
+ 
+    <form action="http://127.0.0.1:5000/namemovie/test" method="POST">
+        <p>Movie Name: <input type = "text" name = "nameMovie" class="movie-input"/></p>
+        <p><input type = "submit" value = "submit" /></p>
+    </form>
+   
+
+
+    <p class="movie-name">Movie:{{movieName}}</p>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" class="yt-player"></iframe>
+    <div class="rating">
+        <p class="avg-rating">IMDB: {{imdbRate}} &nbsp;&nbsp; MetaCriticRating: {{metaRate}} &nbsp;&nbsp; RottenTomatoesRating: {{rotRate}} </p>
+        <p class="num-rev">Plot: {{ plot }} </p>
+    </div>
+
+    <div class="top-rev">
+        <div id="rev0">
+            {{ rev0 }}
+        </div>
+        <div id="rev1">
+            {{ rev1 }}
+
+        </div>
+        <div id="rev2">
+            {{ rev2 }}
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+    
+</body>
+</html>
+
