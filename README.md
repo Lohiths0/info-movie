@@ -15,8 +15,8 @@ The script will render another HTML page with the movie's
   2. plot summary
   3. embedded video of the movie's trailer
   4. 3 (unformatted) reviews
-APIs used-
 
+APIs used-
 OMDB (Open Movie Database) for Plot; Ratings (IMDB, Metacritic, and rotten tomatoes), and IMDB ID
 TMDB (The Movie Database) for Reviews, Movie Trailer (Embedded youtube video)
 
